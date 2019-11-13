@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "596930600782",
+    "firebase_url": "https://stufac-725a7.firebaseio.com",
+    "project_id": "stufac-725a7",
+    "storage_bucket": "stufac-725a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596930600782:android:27aa38fd59fcd4b12c881f",
+        "android_client_info": {
+          "package_name": "com.example.aman.firstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596930600782-ck6j27gmfji8eqdjvtabqj602gia5bs7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACjxW6MpYKnGgco5Mk1G--9RnN_b-eqcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596930600782-ck6j27gmfji8eqdjvtabqj602gia5bs7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
