@@ -7,13 +7,15 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
+
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashActivity">
+        <activity android:name=".SplashActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,28 +24,50 @@
         </activity>
         <activity
             android:name=".StudentRegistration"
-            android:parentActivityName=".StudentMain" />
-        <activity android:name=".StudentLogin" />
-        <activity android:name=".StudentMain" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".AdminEntry" />
-        <activity android:name=".FacultyEntry" />
-        <activity android:name=".AdminRegistration" />
-        <activity android:name=".AdminLogin" />
-        <activity android:name=".AdminMain" />
-        <activity android:name=".FacultyRegistration" />
-        <activity android:name=".FacultyLogin" />
-        <activity android:name=".FacultyMain" />
-        <activity android:name=".home" />
-        <activity android:name=".openpdf" />
-        <activity android:name=".retriveactivity" />
-        <activity android:name=".create" />
-        <activity android:name=".view" />
-        <activity android:name=".timetableyear" />
-        <activity android:name=".TimeTableWeek" />
-        <activity android:name=".TimeTableLecture" />
-        <activity android:name=".TimeTableSection" />
-        <activity android:name=".FrontPage"></activity>
+            android:parentActivityName=".StudentMain"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".StudentLogin"
+            android:screenOrientation="portrait" />
+        <activity android:name=".StudentMain"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AdminEntry"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".FacultyEntry"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AdminRegistration"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AdminLogin"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AdminMain"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".FacultyRegistration"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".FacultyLogin"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".FacultyMain"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".home"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".openpdf"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".retriveactivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".create"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".view"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".timetableyear"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TimeTableWeek"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TimeTableLecture"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TimeTableSection"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".FrontPage"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
